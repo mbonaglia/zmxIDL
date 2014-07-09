@@ -1,0 +1,4 @@
+LIBRARY			zemaxmodule
+DESCRIPTION		'Use ZEMAX from IDL'
+
+EXPORTS			IDL_Load		@1
