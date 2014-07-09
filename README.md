@@ -67,7 +67,7 @@ Go on with IDL Configuration
 
 #### Credits
 
-The code was reviewed by Frederic Cassaing <Frederic.Cassaing@onera.fr> & Jonathan Lisowski
+The code was reviewed by Frederic Cassaing & Jonathan Lisowski
 
 
 #### License:
