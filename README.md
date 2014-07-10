@@ -48,7 +48,8 @@ Go on with IDL Configuration
 #### IDL Configuration
 
 
-0) Add the zemaxdlm directory to IDL's DLM_PATH. On IDL7+ this is done from Window->Preferences->IDL->Paths and then selecting "DLM path" from the drop-down menu. Alternatively you can execute this commands from IDL terminal: PREF_SET, 'IDL_DLM_PATH', 'Your_zemaxdlm_path;<IDL_DEFAULT>', /COMMIT  
+0) Add the zemaxdlm directory to IDL's DLM_PATH. On IDL7+ this is done from Window->Preferences->IDL->Paths and then selecting "DLM path" from the drop-down menu. 
+Alternatively you can execute this commands from IDL terminal: `PREF_SET, 'IDL_DLM_PATH', 'Your_zemaxdlm_path;<IDL_DEFAULT>', /COMMIT`
 
 1) Add the zmxIDL directory to your IDL path.  On IDL7+ this is done from Window->Preferences->IDL->Paths and then selecting "IDL path"
 
