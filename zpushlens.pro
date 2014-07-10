@@ -1,6 +1,6 @@
 pro zPushLens, update_windows=update_windows
   if n_elements(update_windows) eq 0 then cmd='PushLens,0' else cmd='PushLens,1'  
-  ret = zemax(cmd)
+  ret = fix(zemax(cmd))
   if ret eq -999 then begin
     allow = zPushLensPermission()
     if allow eq 0 then message, $
