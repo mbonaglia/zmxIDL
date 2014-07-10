@@ -76,7 +76,7 @@ Alternatively you can execute this commands from IDL terminal: `PREF_SET, 'IDL_D
 
 #### Credits
 
-The code was reviewed by Frederic Cassaing & Jonathan Lisowski
+The code was reviewed by Marco Bonaglia, Frederic Cassaing & Jonathan Lisowski
 
 
 #### License:
