@@ -1,5 +1,0 @@
-An attempt to provide zmxIDL with unittest 
-
-Requires mgunit.
-
-This directory is not used fro production, only for zmxIDL development
