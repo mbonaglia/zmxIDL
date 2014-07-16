@@ -30,36 +30,15 @@ b) A set of routines z*.pro that match the commands (aka data item) . Only a few
 
 c) The zzXXX procedures, high-level interface chaining several DDE calls.
 
-#### Howto compile the DLL
 
+0) Run IDL and cd into the zmxIDL directory
 
-This is needed to build the DLL library zemaxmodule.dll. If you are running WinXP 32bit or Win7 64bit, the files provided in the package should be ok (hopefully...) and you can jump step 2.
+1) at IDL prompt type `install` and follow instructions
 
-0) Install a C compiler. This procedure was tested using Microsoft Visual C++ 6.0 
+2) exit and restart IDL
 
-1) Run zemaxdlm/build_zemaxmodule.pro
+3) at IDL prompt type `test_install` and follow instructions
 
-The file zemaxdlm/zemaxdlm.dll should be present
-
-2) Only if you did NOT compile and you run on a WinXP_32 or Win7_64bit: rename the file zemaxmodule32bitWinXP.dll or zemaxmodule64bitWin7.dll to zemaxmodule.dll
-
-Go on with IDL Configuration
-
-#### IDL Configuration
-
-
-0) Add the zemaxdlm directory to IDL's DLM_PATH. On IDL7+ this is done from Window->Preferences->IDL->Paths and then selecting "DLM path" from the drop-down menu. 
-Alternatively you can execute this commands from IDL terminal: `PREF_SET, 'IDL_DLM_PATH', 'Your_zemaxdlm_path;<IDL_DEFAULT>', /COMMIT`
-
-1) Add the zmxIDL directory to your IDL path.  On IDL7+ this is done from Window->Preferences->IDL->Paths and then selecting "IDL path"
-
-2) Restart IDL
-
-3) Type: "help, /DLM". In the list of the available DLMs, you should find the zemaxmodule as shown below.
-
-** ZEMAXMODULE - IDL Extension for ZEMAX (not loaded)
-    Version: 1.0, Build Date: FEB 28 2009, Source: IDL
-    Path: C:\Documents and Settings\lbusoni\Documenti\adopt\idl\zmxIDL\zemaxdlm\zemaxmodule.dll
 
 
 #### Test installation
