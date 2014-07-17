@@ -20,7 +20,7 @@ It is easy to add new ones using the available ones as templates. Feel free to a
 
 The library was tested on Windows XP 32 bit and Win7 64 bit, ZEMAX Nov,10 2008 and IDL 7.0 and 8.0. It is required that IDL and ZEMAX are running on the same machine.
 
-## How to install
+## What's inside
 
 The source package is made of:
 
@@ -30,14 +30,22 @@ b) A set of routines z*.pro that match the commands (aka data item) . Only a few
 
 c) The zzXXX procedures, high-level interface chaining several DDE calls.
 
+d) a directory "test" used for sofware unittest. It is meant to be used only by zmxIDL developers.
 
-0) Run IDL and cd into the zmxIDL directory
+e) the ZEMAX manual in pdf
 
-1) at IDL prompt type `install` and follow instructions
 
-2) exit and restart IDL
+## How to install
 
-3) at IDL prompt type `test_install` and follow instructions
+0) Run IDL 
+
+1) cd into the zmxIDL directory `cd, 'C:\blahbah\....\zmxIDL'` 
+
+2) at IDL prompt type `install` and follow instructions
+
+3) exit and restart IDL
+
+4) at IDL prompt type `test_install` and follow instructions
 
 
 
